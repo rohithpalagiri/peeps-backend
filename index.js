@@ -50,21 +50,15 @@ app.get('/api/users/:id', (request, response) => {
 
 })
 
-app.post('/api/users', (request, response) => {
+app.put('/api/users/:id', (request, response, next) => {
+    const body = request.body
 
-    const user = request.body
-    user.id = generateId()
+    const user = {
+        content: body.content,
+        bgImg: body.bgImg,
+    }
 
-    users = users.concat(user)
 
-    response.json(user)
-})
-
-app.delete('/api/users/:id', (request, response) => {
-    const id = Number(request.params.id)
-    notes = notes.filter(note => note.id !== id)
-
-    response.status(204).end()
 })
 
 app.use(unknownEndpoint)

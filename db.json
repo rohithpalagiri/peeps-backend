@@ -4,15 +4,15 @@
         "first_name": "Sissy",
         "last_name": "Chatterton",
         "email": "schatterton0@pcworld.com",
-        "bgImg": "http://dummyimage.com/500x1000.png/cc0000/ffffff",
+        "bgImg": "",
         "profile_photo": "http://dummyimage.com/100x100.png/ff4444/ffffff",
         "title": "Statistician IV",
         "department": "Marketing",
         "city": "New York City",
         "state": "NY",
         "phone": "212-447-7193",
-        "quote": "Donec ut mauris eget massa tempor convallis.",
-        "quoteAuthor": "Sissy Chatterton",
+        "quote": "",
+        "quoteAuthor": "",
         "client": "Skinder"
     },
     {
